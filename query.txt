@@ -1,0 +1,61 @@
+//Add Pages
+insert into pointofsale.pages (page_name) values ('Home')
+
+insert into pointofsale.pages (page_name) values ('SalesDashboard');
+
+insert into pointofsale.pages (page_name) values ('MainPage');
+
+insert into pointofsale.pages (page_name) values ('Accounts');
+
+insert into pointofsale.pages (page_name) values ('Transactions');
+
+insert into pointofsale.pages (page_name) values ('Admin');
+
+insert into pointofsale.pages (page_name) values ('Customer');
+
+insert into pointofsale.pages (page_name) values ('Attendence');
+
+insert into pointofsale.pages (page_name) values ('AddRole');
+
+insert into pointofsale.pages (page_name) values ('Accounts_reports');
+insert into pointofsale.pages (page_name) values ('Vendor');
+insert into pointofsale.pages (page_name) values ('Layby');
+insert into pointofsale.pages (page_name) values ('ItemsAddition');
+
+insert into pointofsale.pages (page_name) values ('Default');
+insert into pointofsale.pages (page_name) values ('InvoiceRegenration');
+insert into pointofsale.pages (page_name) values ('Reporting');
+insert into pointofsale.pages (page_name) values ('Configurations');
+insert into pointofsale.pages (page_name) values ('About');
+insert into pointofsale.pages (page_name) values ('Form1');
+insert into pointofsale.pages (page_name) values ('SaleReturn');
+insert into pointofsale.pages (page_name) values ('joborder');
+insert into pointofsale.pages (page_name) values ('Purchase');
+insert into pointofsale.pages (page_name) values ('BackUp');
+
+
+//AddRoles
+insert into pointofsale.roles (role_name) values ('Admin');
+insert into pointofsale.roles (role_name) values ('Salesman');
+
+//AddRole_pages
+insert into pointofsale.role_pages (page_name,role_name) values ('Home','Admin');
+
+insert into pointofsale.role_pages (page_name,role_name) values ('SalesDashboard','Admin');
+
+insert into pointofsale.role_pages (page_name,role_name) values ('Attendence','Admin');
+
+insert into pointofsale.role_pages (page_name,role_name) values ('MainPage','Admin');
+
+insert into pointofsale.role_pages (page_name,role_name) values ('Accounts','Admin');
+
+insert into pointofsale.role_pages (page_name,role_name) values ('Transactions','Admin');
+
+insert into pointofsale.role_pages (page_name,role_name) values ('Admin','Admin');
+
+insert into pointofsale.role_pages (page_name,role_name) values ('Attendence','Admin');
+
+insert into pointofsale.role_pages (page_name,role_name) values ('AddRole','Admin');
+
+insert into pointofsale.role_pages (page_name,role_name) values ('SalesDashboard','Salesman');
+
